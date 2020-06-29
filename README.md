@@ -13,6 +13,12 @@ This is the official implementation of the paper "Implicit Neural Representation
 
 [![siren_video](https://img.youtube.com/vi/Q2fLWGBeaiI/0.jpg)](https://www.youtube.com/watch?v=Q2fLWGBeaiI)
 
+### fix install
+```
+apt install --reinstall libxcb-xinerama0
+export QTDIR=~/python3.7/lib/python3.7/site-packages/PyQt5/Qt
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${QTDIR}/lib
+```
 
 ## Google Colab
 If you want to experiment with Siren, we have written a [Colab](https://colab.research.google.com/github/vsitzmann/siren/blob/master/explore_siren.ipynb).
